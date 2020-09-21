@@ -1,6 +1,10 @@
 import '@tarojs/async-await';
 import Taro from '@tarojs/taro';
 
+const SUCCESS = 200;
+const ERROR = 500;
+const WARN = 400;
+
 // 获取openId
 const getOpenId = () => {
   return Taro.getStorageSync('openId');
@@ -51,4 +55,4 @@ const deepCopy = function(obj) {
   return newObj;
 };
 
-export { getOpenId, callAfterOpenId, stringJoin, deepCopy };
+export { SUCCESS, ERROR, WARN, getOpenId, callAfterOpenId, stringJoin, deepCopy };

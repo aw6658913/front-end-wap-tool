@@ -1,5 +1,5 @@
 ### 整合Taro+Dva.js 
-项目描述：该项目整合了Taro+Dva.js。也避免以后开发新开发小程序的时候再重新集成dva,相当于一个已经集成dva的taro脚手架。<br>
+项目描述：该项目整合了Taro+Dva.js+Mock。也避免以后开发新开发小程序的时候再重新集成dva,相当于一个已经集成dva的taro脚手架。<br>
 Taro版本：2.0
 
 #### 安装tarojs/cli

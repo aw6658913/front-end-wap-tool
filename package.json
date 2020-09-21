@@ -37,6 +37,7 @@
     "@tarojs/async-await": "^2.2.6",
     "@tarojs/components": "2.2.6",
     "@tarojs/components-qa": "2.2.6",
+    "@tarojs/plugin-mock": "0.0.6",
     "@tarojs/redux": "2.2.6",
     "@tarojs/redux-h5": "2.2.6",
     "@tarojs/router": "2.2.6",

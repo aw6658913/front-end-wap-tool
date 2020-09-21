@@ -43,6 +43,11 @@ export const loading = (title = "加载中") => {
   }
 };
 
+// 隐藏加载中提示弹框
+export const hideLoading = () => {
+  Taro.hideLoading();
+};
+
 // 成功轻提示
 export const toastSuccess = (title, onHide) => {
   Taro.showToast({
@@ -58,6 +63,6 @@ export const toastSuccess = (title, onHide) => {
   });
 };
 
-export default { toPage, toast, loading, toastSuccess };
+export default { toPage, toast, loading, hideLoading, toastSuccess };
 
 
