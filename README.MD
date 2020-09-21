@@ -89,3 +89,34 @@ yarn com 页面名称
 ```
 
 ### 用小程序导入dist目录，即可在微信开发者工具看到运行效果
+
+## 文件目录结构说明
+
+    .
+    |-- config/                              // 配置文件夹
+    |   |-- dev.js                           // 开发环境配置
+    |   |-- index.js                         // 通用配置
+    |   |-- prod.js                          // 生产环境配置
+    |-- dist/                                // 编译目录
+    |-- mock/                                // mock数据
+    |-- script/                              // 脚本
+    |   |-- component.js                     // 生成组件脚本
+    |   |-- template.js                      // 生成页面脚本
+    |-- src/                                 // 源码文件夹
+    |   |-- assets/                          // 静态资源
+    |   |-- components/                      // 应用级通用组件
+    |   |-- model/                           // model文件
+    |   |-- pages/                           // 页面
+    |   |   |./pageA                         
+    |   |   |./pageB  
+    |   |-- services/
+    |
+    |-- .eslintignore                        // eslint忽略文件的配置文件
+    |-- .eslintrc.js                         // JS代码风格配置文件
+    |-- .gitignore                           // Git忽略文件的配置文件
+    |-- .prettierrc.js                       // 代码美化规则配置文件
+    |
+    |-- jsconfig.json                        // javascript配置文件
+    |-- package.json                         // 软件包相关信息的配置文件
+    |
+    |-- README.md                            // 文档说明
