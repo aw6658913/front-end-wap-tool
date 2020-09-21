@@ -5,11 +5,11 @@ Taro版本：2.0
 #### 安装tarojs/cli
 参照Taro官网,建议安装2.2.6版本的taro/cli，3.0版本刚出，有不稳定性，同时在做项目的时候3.0还没出。<br>
 ```javascript
-npm install -g @tarojs/cli
+npm install -g @tarojs/cli@2.2.6
 ```
 或
 ```javascript
-yarn global add @tarojs/cli
+yarn global add @tarojs/cli@2.2.6
 ```
 #### 安装依赖
 ```javascript
@@ -18,11 +18,6 @@ npm install
 ### 启动编译小程序
 ```javascript
 npm run dev:weapp
-```
-<br>
-如果是 `command not found:trao` 运行：
-```javascript
-npm i -g @tarojs/cli@2.2.6
 ```
 
 ### 创建页面
