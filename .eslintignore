@@ -1,0 +1,6 @@
+/scripts
+/config
+/dist
+/node_modules
+.github
+.jsconfig
