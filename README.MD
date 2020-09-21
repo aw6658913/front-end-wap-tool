@@ -15,9 +15,59 @@ yarn global add @tarojs/cli@2.2.6
 ```javascript
 npm install
 ```
-### 启动编译小程序
+### 启动编译微信小程序
+---开发环境<br>
 ```javascript
 npm run dev:weapp
+```
+<br>
+---正式环境<br>
+```javascript
+npm run run:weapp
+```
+
+### 启动编译百度小程序
+---开发环境<br>
+```javascript
+npm run dev:swan
+```
+<br>
+---正式环境<br>
+```javascript
+npm run run:swan
+```
+
+### 启动编译支付宝小程序
+---开发环境<br>
+```javascript
+npm run dev:alipay
+```
+<br>
+---正式环境<br>
+```javascript
+npm run run:alipay
+```
+
+### 启动编译H5
+---开发环境<br>
+```javascript
+npm run dev:h5
+```
+<br>
+---正式环境<br>
+```javascript
+npm run run:h5
+```
+
+### 启动编译RN
+---开发环境<br>
+```javascript
+npm run dev:rn
+```
+<br>
+---正式环境<br>
+```javascript
+npm run run:rn
 ```
 
 ### 创建页面
