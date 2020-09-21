@@ -109,7 +109,7 @@ yarn com 页面名称
     |   |-- pages/                           // 页面
     |   |   |./pageA                         
     |   |   |./pageB  
-    |   |-- services/
+    |   |-- service/                         // 接口请求目录
     |
     |-- .eslintignore                        // eslint忽略文件的配置文件
     |-- .eslintrc.js                         // JS代码风格配置文件
