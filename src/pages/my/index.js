@@ -1,6 +1,6 @@
 import { View } from '@tarojs/components';
 import Taro from '@tarojs/taro';
-import styles from './my.module.scss';
+import styles from './index.scss';
 
 class Mine extends Taro.Component {
   componentDidMount = () => {};
