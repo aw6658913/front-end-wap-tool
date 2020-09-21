@@ -3,7 +3,7 @@
 Taro版本：2.0
 
 #### 安装tarojs/cli
-参照Taro官网,建议安装2.2.6版本的taro/cli，3.0版本刚出，有不稳定性，同时在做项目的时候3.0还没出。<br>
+参照Taro官网,建议安装2.2.6版本的taro/cli，3.0版本刚出，有不稳定性。<br>
 ```javascript
 npm install -g @tarojs/cli@2.2.6
 ```
